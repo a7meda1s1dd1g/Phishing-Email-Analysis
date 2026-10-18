@@ -122,6 +122,8 @@ phishing-email-analysis/
 
 - VirusTotal
 - ANY.RUN
+- UrlScan.io
+- MXToolBox
 
 ---
 
