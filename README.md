@@ -81,8 +81,27 @@ phishing-email-analysis/
 └── cases/
     ├── 001-phishing-email/
     ├── 002-phishing-email/
-    └── 003-phishing-email/
-```
+    └── 003-phishing-## Case Studies
+
+'''
+
+---
+
+## Case Studies
+
+'''
+
+| Case     | Verdict                    | Confidence |
+| -------- | -------------------------- | ---------- |
+| CASE-001 | True Positive (Phishing)   | High       |
+| CASE-002 | True Positive (Phishing)   | High       |
+| CASE-003 | True Positive (Phishing)   | High       |
+| CASE-004 | True Positive (Phishing)   | High       |
+| CASE-005 | Suspicious / Inconclusive  | Medium     |
+| CASE-006 | True Positive (Phishing)   | High       |
+
+'''
+
 
 ---
 
