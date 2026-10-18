@@ -83,7 +83,7 @@ phishing-email-analysis/
     ├── 002-phishing-email/
     ├── 003-phishing-email/
     ├── 004-phishing-email/
-    ├── 005-suspicious-email/
+    ├── 005-phishing-email/
     └── 006-phishing-email/
 ```
 
