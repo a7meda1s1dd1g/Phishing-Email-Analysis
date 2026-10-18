@@ -81,15 +81,10 @@ phishing-email-analysis/
 └── cases/
     ├── 001-phishing-email/
     ├── 002-phishing-email/
-    └── 003-phishing-## Case Studies
-
-'''
-
----
+    └── 003-phishing-email/
 
 ## Case Studies
 
-'''
 
 | Case     | Verdict                    | Confidence |
 | -------- | -------------------------- | ---------- |
