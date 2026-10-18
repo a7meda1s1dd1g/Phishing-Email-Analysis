@@ -10,20 +10,20 @@ The objective of this project is to develop and demonstrate practical SOC analys
 
 This project focuses on:
 
-* Email header analysis
-* SPF analysis
-* DKIM analysis
-* DMARC analysis
-* Received header investigation
-* Sender and Reply-To analysis
-* Email infrastructure investigation
-* URL analysis
-* Attachment analysis
-* IOC extraction
-* Phishing detection
-* Social engineering analysis
-* MITRE ATT&CK mapping
-* SOC investigation documentation
+- Email header analysis
+- SPF analysis
+- DKIM analysis
+- DMARC analysis
+- Received header investigation
+- Sender and Reply-To analysis
+- Email infrastructure investigation
+- URL analysis
+- Attachment analysis
+- IOC extraction
+- Phishing detection
+- Social engineering analysis
+- MITRE ATT&CK mapping
+- SOC investigation documentation
 
 ---
 
@@ -31,7 +31,7 @@ This project focuses on:
 
 Each email is investigated using a consistent workflow:
 
-```text
+```
 Email
   │
   ▼
@@ -69,7 +69,7 @@ SOC Recommendations
 
 ## Repository Structure
 
-```text
+```
 phishing-email-analysis/
 │
 ├── README.md
@@ -78,29 +78,11 @@ phishing-email-analysis/
 │   ├── email-header-analysis.md
 │   └── investigation-workflow.md
 │
-├── cases/
-│   └── 001-phishing-email/
-│       ├── report.md
-│       └── artifacts.md
-│
-├── iocs/
-│   ├── domains.txt
-│   ├── ips.txt
-│   └── urls.txt
-│
-└── tools/
-    └── README.md
+└── cases/
+    ├── 001-phishing-email/
+    ├── 002-phishing-email/
+    └── 003-phishing-email/
 ```
-
----
-
-## Case Studies
-
-| Case     | Classification | Confidence |
-| -------- | -------------- | ---------- |
-| CASE-001 | Phishing       | High       |
-| CASE-002 | TBD            | TBD        |
-| CASE-003 | TBD            | TBD        |
 
 ---
 
@@ -108,31 +90,38 @@ phishing-email-analysis/
 
 ### Email Security
 
-* Email header analysis
-* SPF
-* DKIM
-* DMARC
-* Received headers
-* Sender authentication
-* Email spoofing detection
+- Email header analysis
+- SPF
+- DKIM
+- DMARC
+- Received headers
+- Sender authentication
+- Email spoofing detection
 
 ### Threat Analysis
 
-* URL investigation
-* Domain analysis
-* IP analysis
-* IOC extraction
-* Social engineering detection
-* Phishing classification
+- URL investigation
+- Domain analysis
+- IP analysis
+- IOC extraction
+- Social engineering detection
+- Phishing classification
 
 ### SOC Skills
 
-* Alert investigation
-* Evidence collection
-* Investigation documentation
-* Incident classification
-* Recommended response actions
-* MITRE ATT&CK mapping
+- Alert investigation
+- Evidence collection
+- Investigation documentation
+- Incident classification
+- Recommended response actions
+- MITRE ATT&CK mapping
+
+---
+
+## Tools Used
+
+- VirusTotal
+- ANY.RUN
 
 ---
 
@@ -140,9 +129,9 @@ phishing-email-analysis/
 
 This project uses publicly available email corpora for educational and research purposes.
 
-The original dataset and its license will be referenced in each applicable case.
+The original dataset and its license are referenced in each applicable case.
 
-Original email data will not be redistributed unless the applicable dataset license explicitly permits redistribution.
+Original email data is not redistributed unless the applicable dataset license explicitly permits redistribution.
 
 ---
 
@@ -156,4 +145,6 @@ All analysis is performed on publicly available datasets or data for which analy
 
 ## Author
 
-Cybersecurity / SOC Analyst Portfolio
+Ahmed Alsiddig - Cybersecurity / SOC Analyst Portfolio
+
+LinkedIn: https://www.linkedin.com/in/ahmed-alsiddig-6a0801287
